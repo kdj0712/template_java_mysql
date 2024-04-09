@@ -23,15 +23,18 @@ public class TryCatchsSubs {
 
     // with params
     // public int methodSubsWithParamsReturn(int firstNumber, int secondNumber) {
-    //     int resultNumber = 0;
-    //     try {
-    //         System.out.println("MethodsSubs - methodSubsWithParams(int firstNumber, int secondNumber)");
-    //         System.out.println("params : firstNumber - " + firstNumber + ", secondNumber-" + secondNumber);
-    //         int resultNumber = firstNumber + secondNumber;
-    //     } catch (Exception e) {
-    //         System.out.println("methodSubsWithParamsReturn(int firstNumber, int secondNumber)catch(Exception e)");
-    //     }
-    //     return resultNumber;
+    // int resultNumber = 0;
+    // try {
+    // System.out.println("MethodsSubs - methodSubsWithParams(int firstNumber, int
+    // secondNumber)");
+    // System.out.println("params : firstNumber - " + firstNumber + ",
+    // secondNumber-" + secondNumber);
+    // int resultNumber = firstNumber + secondNumber;
+    // } catch (Exception e) {
+    // System.out.println("methodSubsWithParamsReturn(int firstNumber, int
+    // secondNumber)catch(Exception e)");
+    // }
+    // return resultNumber;
     // }
 
     public int returnException(int firstNumber) {
@@ -45,10 +48,9 @@ public class TryCatchsSubs {
             System.out.println(myNumbers.get(10));
             result = myNumbers.get(10);
         } catch (Exception e) {
-            System.out.println("catch(Exception e) : "+e.getMessage());
+            System.out.println("catch(Exception e) : " + e.getMessage());
             result = myNumbers.get(0);
         }
-        return;
+        return result;
     }
-
 }

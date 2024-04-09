@@ -1,24 +1,24 @@
 package quests;
 
 public class ArithmeticsSub {
-    public void sum(int first, int second) {
+    public int sum(int first, int second) {
         System.out.println(first + "+" + second);
         int result = first + second;
-        return;
+        return result;
     }
-    public void minus(int first, int second) {
+    public int minus(int first, int second) {
         System.out.println(first + "-" + second);
         int result = first - second;
-        return;
+        return result;
     }
-    public void multiply(int first, int second) {
+    public int multiply(int first, int second) {
         System.out.println(first + "*" + second);
         int result = first * second;
-        return;
+        return result;
     }
-    public void remain(int first, int second) {
+    public int remain(int first, int second) {
         System.out.println(first + "%" + second);
         int result = first % second;
-        return;
+        return result;
     }
 }

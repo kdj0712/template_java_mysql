@@ -10,8 +10,8 @@ public class AdditionsMain {
         System.out.print("두번째 수를 입력하세요 : ");
         int numbersecond =scanner.nextInt();
         scanner.close();
-        int results = subs.additionssub(numberfirst,numbersecond);
-        System.out.println("두 수의 합: " + results);
+        // int results = subs.additionssub(numberfirst,numbersecond);
+        // System.out.println("두 수의 합: " + results);
     }
 }
 
